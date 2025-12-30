@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.jackyblackson.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatScreenMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ExampleClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
