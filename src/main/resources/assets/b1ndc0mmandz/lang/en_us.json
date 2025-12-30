@@ -46,7 +46,7 @@
   "b1ndc0mmandz.bindings.node.default.comment": "Description",
   "b1ndc0mmandz.bindings.gui.edit.save": "Save & Close",
   "b1ndc0mmandz.bindings.gui.edit.list.edit": "Edit",
-  "b1ndc0mmandz.bindings.gui.edit.list.remove": "Edit",
+  "b1ndc0mmandz.bindings.gui.edit.list.remove": "Remove",
   "b1ndc0mmandz.bindings.gui.edit.bindings.details.name": "Name",
   "b1ndc0mmandz.bindings.gui.edit.bindings.details.keys": "Hotkey (Malilib format, e.g. LEFT_CONTROL,C)",
   "b1ndc0mmandz.bindings.gui.edit.bindings.details.comment": "Comment",

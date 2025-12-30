@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: A 3D Keycap shape -->
+  <path d="M64 128 L128 64 H384 L448 128 V384 L384 448 H128 L64 384 Z" fill="#2c2c2c" stroke="#1a1a1a" stroke-width="10"/>
+  <rect x="100" y="100" width="312" height="312" rx="20" fill="#3a3a3a"/>
+  
+  <!-- Shadow/Highlight for 3D effect -->
+  <path d="M100 412 L64 384 V128 L100 100 V412 Z" fill="#1f1f1f"/>
+  <path d="M412 412 L448 384 V128 L412 100 V412 Z" fill="#4a4a4a"/>
+  
+  <!-- Command Prompt Symbol in Command Block Purple -->
+  <text x="50%" y="55%" font-family="monospace" font-size="200" font-weight="bold" fill="#a051d6" text-anchor="middle" dominant-baseline="middle">&gt;_</text>
+  
+  <!-- Optional: A small "link" chain icon to signify binding -->
+  <path d="M256 460 C 200 460 200 480 200 480 H 312 C 312 480 312 460 256 460" fill="#aaaaaa"/>
+</svg>

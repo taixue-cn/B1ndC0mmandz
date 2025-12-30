@@ -34,7 +34,9 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*",
-		"malilib": ">=0.21.0"
+		"malilib": ">=0.21.0",
+		"placeholder-api": ">=2.4.1",
+		"owo-lib": ">=0.12.15"
 	},
 	"suggests": {
 		"another-mod": "*"
