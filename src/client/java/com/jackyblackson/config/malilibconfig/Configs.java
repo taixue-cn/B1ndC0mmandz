@@ -9,6 +9,7 @@ import com.jackyblackson.Reference;
 import com.jackyblackson.bindings.BindingNode;
 import com.jackyblackson.bindings.CommandNode;
 import com.jackyblackson.placeholders.Variable;
+import net.fabricmc.loader.api.FabricLoader;
 import fi.dy.masa.malilib.config.ConfigUtils;
 import fi.dy.masa.malilib.config.IConfigHandler;
 import fi.dy.masa.malilib.config.IConfigValue;
@@ -121,7 +122,7 @@ public class Configs implements IConfigHandler
 
     public static void loadFromFile()
     {
-        File configFile = new File(FileUtils.getConfigDirectory(), CONFIG_FILE_NAME);
+        File configFile = new File(FabricLoader.getInstance().getConfigDir().toFile(), CONFIG_FILE_NAME);
 
         if (configFile.exists() && configFile.isFile() && configFile.canRead())
         {
@@ -166,7 +167,7 @@ public class Configs implements IConfigHandler
 
     public static void saveToFile()
     {
-        File dir = FileUtils.getConfigDirectory();
+        File dir = FabricLoader.getInstance().getConfigDir().toFile();
 
         if ((dir.exists() && dir.isDirectory()) || dir.mkdirs())
         {

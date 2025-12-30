@@ -52,19 +52,16 @@ public class InputHandler implements IKeybindProvider, IKeyboardInputHandler, IM
         });
     }
 
-    @Override
     public boolean onKeyInput(int keyCode, int scanCode, int modifiers, boolean eventKeyState)
     {
         return false;
     }
 
-    @Override
     public boolean onMouseScroll(int mouseX, int mouseY, double amount)
     {
         return false;
     }
 
-    @Override
     public boolean onMouseClick(int mouseX, int mouseY, int eventButton, boolean eventButtonState)
     {
         return false;

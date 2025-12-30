@@ -35,7 +35,8 @@
 		"java": ">=21",
 		"fabric-api": "*",
 		"malilib": ">=0.21.0",
-		"placeholder-api": ">=2.4.1"
+		"placeholder-api": ">=2.4.1",
+		"cloth-config": ">=21.11.153"
 	},
 	"suggests": {
 		"another-mod": "*"

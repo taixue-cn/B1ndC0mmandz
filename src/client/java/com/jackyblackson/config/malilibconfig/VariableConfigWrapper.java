@@ -58,4 +58,44 @@ public class VariableConfigWrapper implements IConfigBase {
     public Variable toVariable() {
         return new Variable(configValue.getStringValue(), configOn.getBooleanValue());
     }
+
+    @Override
+    public void checkIfClean() {
+        
+    }
+
+    @Override
+    public void markClean() {
+
+    }
+
+    @Override
+    public void markDirty() {
+
+    }
+
+    @Override
+    public boolean isDirty() {
+        return false;
+    }
+
+    @Override
+    public void setComment(String comment) {
+
+    }
+
+    @Override
+    public void setTranslatedName(String name) {
+
+    }
+
+    @Override
+    public void setPrettyName(String name) {
+
+    }
+
+    @Override
+    public String getTranslatedName() {
+        return name;
+    }
 }

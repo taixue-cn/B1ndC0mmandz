@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.8-SNAPSHOT'
+	id 'fabric-loom' version '1.14-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -23,6 +23,7 @@ repositories {
 		name "Nucleoid"
 	}
 	maven { url "https://maven.shedaniel.me/" }
+	maven { url "https://jitpack.io" }
 }
 
 loom {
@@ -47,7 +48,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Masa's Malilib
-	modImplementation "fi.dy.masa.malilib:malilib-fabric-${project.minecraft_version}:${project.malilib_version}"
+	modImplementation "com.github.sakura-ryoko:malilib:${project.minecraft_version}-${project.malilib_version}"
 
 	// Placeholder API
 	modImplementation include("eu.pb4:placeholder-api:${project.placeholder_api_version}")
