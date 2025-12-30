@@ -4,7 +4,7 @@ import com.google.common.collect.ImmutableList;
 import com.jackyblackson.B1ndC0mmandzClient;
 import com.jackyblackson.InitHandler;
 import com.jackyblackson.Reference;
-import com.jackyblackson.config.owo.BindingConfigScreen;
+import com.jackyblackson.config.cloth.BindingConfigScreen;
 import fi.dy.masa.malilib.config.IConfigBase;
 import fi.dy.masa.malilib.gui.GuiBase;
 import fi.dy.masa.malilib.gui.GuiConfigsBase;
@@ -42,17 +42,17 @@ public class GuiConfigs extends GuiConfigsBase
             x += this.createButton(x, y, -1, tab);
         }
         x += this.createReloadButton(x, y, -1, "b1ndc0mmandz.gui.button.config_gui.reload");
-        x += this.createOwoConfigButton(x, y, -1, ("b1ndc0mmandz.bindings.edit.entrance"));
+        x += this.createConfigButton(x, y, -1, ("b1ndc0mmandz.bindings.edit.entrance"));
 
     }
 
-    private int createOwoConfigButton(int x, int y, int width, String label) {
+    private int createConfigButton(int x, int y, int width, String label) {
         ButtonGeneric button = new ButtonGeneric(x, y, width, false, label);
         button.setEnabled(true);
         this.addButton(button, new IButtonActionListener() {
             @Override
             public void actionPerformedWithButton(ButtonBase button, int mouseButton) {
-                MinecraftClient.getInstance().setScreen(new BindingConfigScreen());
+                MinecraftClient.getInstance().setScreen(BindingConfigScreen.create(GuiConfigs.this));
             }
         });
         return button.getWidth() + 2;

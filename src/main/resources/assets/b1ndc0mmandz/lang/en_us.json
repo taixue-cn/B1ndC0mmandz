@@ -70,5 +70,6 @@
   "b1ndc0mmandz.bindings.gui.edit.command.label.comment": "Comment",
   "b1ndc0mmandz.bindings.gui.edit.command.button.edit": "Edit Command",
   "b1ndc0mmandz.bindings.gui.edit.command.button.save": "Save",
-  "b1ndc0mmandz.bindings.gui.edit.command.button.cancel": "Cancel"
+  "b1ndc0mmandz.bindings.gui.edit.command.button.cancel": "Cancel",
+  "b1ndc0mmandz.bindings.category.general": "General"
 }

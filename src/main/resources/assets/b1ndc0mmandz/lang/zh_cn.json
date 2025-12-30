@@ -44,5 +44,6 @@
   "b1ndc0mmandz.bindings.gui.edit.command.label.comment": "描述",
   "b1ndc0mmandz.bindings.gui.edit.command.button.edit": "编辑指令",
   "b1ndc0mmandz.bindings.gui.edit.command.button.save": "保存",
-  "b1ndc0mmandz.bindings.gui.edit.command.button.cancel": "取消"
+  "b1ndc0mmandz.bindings.gui.edit.command.button.cancel": "取消",
+  "b1ndc0mmandz.bindings.category.general": "通用"
 }

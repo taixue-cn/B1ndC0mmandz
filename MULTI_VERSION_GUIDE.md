@@ -10,7 +10,7 @@
 
 ```text
 b1nd-c0mmandz/
-├── common/                  <-- 【核心】存放所有通用代码、资源、UI (Owo-Lib/Malilib)
+├── common/                  <-- 【核心】存放所有通用代码、资源、UI (Cloth Config/Malilib)
 │   ├── src/main/java
 │   └── src/main/resources
 ├── 1.21.1/                  <-- 1.21.1 专用模块

@@ -7,7 +7,7 @@
 
 *   **Unlimited Keybindings:** Bind any key on your keyboard to trigger commands.
 *   **Command Macros:** Execute multiple commands in sequence with a single keypress.
-*   **Modern UI:** A clean, user-friendly configuration interface built with [Owo-Lib](https://github.com/wisp-forest/owo-lib), accessible directly in-game.
+*   **Modern UI:** A clean, user-friendly configuration interface built with [Cloth Config API](https://modrinth.com/mod/cloth-config), accessible directly in-game.
 *   **Legacy Support:** Fully integrated with [MaLiLib](https://github.com/maruohon/malilib) for robust hotkey handling.
 *   **Variables & Placeholders:**
     *   Define custom variables to reuse values across different commands.
@@ -19,7 +19,7 @@
 This mod requires the following dependencies:
 1.  **[Fabric API](https://modrinth.com/mod/fabric-api)**
 2.  **[MaLiLib](https://www.curseforge.com/minecraft/mc-mods/malilib)**
-3.  **[Owo-Lib](https://modrinth.com/mod/owo-lib)**
+3.  **[Cloth Config API](https://modrinth.com/mod/cloth-config)**
 4.  **[Placeholder API](https://modrinth.com/mod/placeholder-api)** (Fabric)
 
 Download the latest release of **b1nd-c0mmandz** and place it in your `mods` folder along with the dependencies.
